@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/aed50834e0.js" crossorigin="anonymous"></script>
+    
+    <title>Catalogo</title>
+</head>
+<body>
+    <header>
+       
+    <nav>
+        <!--nav-hamburg-->
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i style="font-size:24px" class="fa">&#xf0c9;</i>
+        </label>
+
+        <!--Logo-->
+
+            <a href="#" class=" logo">
+                <img src="/img/Logo-modificado.png"  class="logo" alt="logo icon">
+             </a>
+
+        <!--nav-escritorio-->
+
+        <ul class="responsive">
+            <li>
+                <a href="#" class="menu" id="seleccionado" >Catálogo </a>
+            </li>
+            <li>
+                <a href="#" class="menu" >Donaciones </a>
+            </li>
+            <li>
+                <a href="#" class="menu" >Nosotros</a>
+            </li>
+            
+        </ul>
+
+        <div class="container-icons">
+        <input type="checkbox" id="checkUser">
+        <label for="checkUser" class="userbtn">
+            <i class="fa-solid fa-user"></i>
+        </label>
+
+        <input type="checkbox" id="checkCar">
+        <label for="checkCar" class="carbtn">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </label>
+
+        </div>
+    </nav>
+    </header>
+
+    <main>
+        <section class="title-seeker">
+
+            <h2 class="titulo-catalogo">CATALOGO</h2>
+
+            <div class="opciones"> 
+            <select name="CATEGORIA">
+                  <option>COCINA</option>
+                  <option>JARDINERIA Y HERRAMIENTAS</option>
+                  <option>LIMPIEZA</option>
+                  <option>DEPORTES</option>
+                  <option>HOBBIES & JUEGOS</option>
+            </select>
+            </div>
+             
+            
+    
+            <div class="search">
+                <input type="text" class="search-text" placeholder="¿QUE NECESITAS?">
+                <input type="checkbox" id="searchbtn" >
+                <label for="searchbtn" class="carbtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                
+    
+            </div>
+    
+        </section>
+
+        <section class="catalogo">
+
+            <div class="caja-categorias">
+
+                    <h4 class="titulo-categorias">Categorias</h4>
+
+                    <input required id="cocina"  class="checkSize" type="checkbox" name="option" value="cocina">
+                    <label for="cocina" class="size-category">COCINA</label>
+
+                    <input required id="jardineria" class="checkSize"  type="checkbox" name="option" value="jardineria">
+                    <label for="jardineria" class="size-category">JARDINERIA Y HERRAMIENTAS</label>
+
+                    <input required id="limpieza" class="checkSize"  type="checkbox" name="option" value="limpieza">
+                    <label for="limpieza" class="size-category">LIMPIEZA</label>
+
+                    <input required id="deportes" class="checkSize"  type="checkbox" name="option" value="deportes">
+                    <label for="deportes" class="size-category">DEPORTES</label>
+
+                    <input required id="hobbies" class="checkSize" type="checkbox" name="option" value="hobbies">
+                    <label for="hobbies" class="size-category">HOBBIES & JUEGOS</label>
+                
+            </div>
+
+            <figure class="tostadora" >
+                <h4 class="titulo-h4">Tostadora  de pan</h4>
+                <img class="tostadora" src="/img/tostadora2.jpg" alt="tostadora de pan">
+                <figcaption>Perfecto para desayunos rápidos, 5€ por día</figcaption>
+            </figure>
+
+            <figure class="batidora" >
+                <h4 class="titulo-h4">Batidora profesional</h4>
+                <img class="batidora" src="/img/batidora2.jpg" alt="Batidora profesional">
+                <figcaption>¡Crea postres inolvidables! 10€ por día</figcaption>
+            </figure>
+
+            <figure class="asador" >
+                <h4 class="titulo-h4">Asador de exterior</h4>
+                <img class="asador" src="/img/barbacoa2.jpg" alt="Asador de exterior">
+                <figcaption>Prepara comida con sabores únicos, 15€ por día</figcaption>
+            </figure>
+
+            <figure class="cafetera" >
+                <h4 class="titulo-h4">Cafetera con molino</h4>
+                <img class="cafetera" src="/img/cafetera.jpg" alt="cafetera con molino">
+                <figcaption>Cafetera con molino, 12€ por día</figcaption>
+            </figure>
+
+        </section>
+
+        <footer>
+
+            <div class="newsletter">
+    
+                <h3>Suscribete a nuestra newsletter y enterate de las novedades de nuestra biblioteca</h3>
+                 
+                <div class="mail"> 
+                <label for="mail">Email</label>
+                <input required id="mail" name="email" type="email" placeholder="email@contacto.com">
+                </div>
+    
+            </div>
+    
+    
+            <ul class="footer">
+                <li>Ayuda</li>
+                <li>Contacto</li>
+                <li>Trabaja con nosotros</li>
+                <li>Términos y condiciones</li>
+            </ul>
+    
+            <div class="iconos-footer">
+    
+                
+                    <i class="fa-brands fa-square-instagram"></i>
+                
+        
+                
+                    <i class="fa-brands fa-twitter"></i>
+                
+        
+                
+                    <i class="fa-brands fa-facebook-f"></i>
+                
+        
+            </div>
+            
+        </footer>
+    
+    </main>
+
+    </body>
+    </html>
