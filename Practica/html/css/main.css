@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box; /*para que los elementos no se salgan del contenedor*/
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/*-------barra de bavegación---------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7d5b18;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+.responsive { /*menú modo escritorio*/
+    display: none;
+}
+
+
+
+.fa{
+    margin: 8px;
+    font-size: 170%;
+    color: white;
+    
+}
+
+.fa-solid {
+    margin-top: 10px;
+    font-size: 100%;
+    color: #A8D8E5;
+
+}
+
+.logo{
+     
+    max-width: 100px;
+    margin: 3px;
+    
+    
+}
+
+nav ul li{
+    margin:10px;
+      
+}
+
+#seleccionado{
+    background-color: #A8D8E5;
+}
+
+
+
+#check{ /*cuadro de check*/
+    display: none;
+}
+
+#checkCar{
+    display: none;
+}
+
+#checkUser{
+    display: none;
+}
+
+
+
+/*-------buscador---------*/
+
+h1{
+    font-family: 'Paytone One', sans-serif;
+    color: #6a501b;
+    text-align: center;
+    
+}
+
+
+.search{
+    display: none;
+
+}
+
+.title-seeker{
+    
+    padding: 30px;
+    text-align: center;
+    
+    
+}
+#searchbtn{
+    display: none;
+}
+
+/*-------Sección 1---------*/
+
+.section1{
+    background-color:#A8D8E5 ;
+    padding: 40px;
+}
+.div-imagen1{
+    display: flex;
+    justify-content: center;
+}
+.chica{
+    max-width: 50%;
+    width: 350px;
+    
+}
+
+.chico{
+    display: none;
+}
+
+h2{
+    font-family: 'Paytone One', sans-serif;
+    color: #7d5b18;
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.descripcion-1{
+    text-align: justify;
+    font-size: 12px;
+}
+
+/*-----Catalogo-- movil---*/
+
+.caja-categorias{
+    display: none;
+}
+.catalogo{
+    
+    display: grid;
+    justify-content: center;
+    background-color: #A48E68;
+    padding: 2%;
+}
+
+.letra-azul{
+    color: #A8D8E5;
+}
+
+.titulo-h4{
+    font-size: 20px;
+    margin: 20px; 
+}
+
+
+
+.tostadora{
+    max-width: 100%;
+    width: 300px;
+    
+
+}
+
+.batidora{
+    max-width: 100%;
+    width: 300px;
+
+}
+
+.asador{
+    max-width: 100%;
+    width: 300px;
+
+}
+
+.cafetera{
+    max-width: 100%;
+    width: 300px;
+}
+
+/*-------Sección 2---------*/
+
+.section-2{
+    padding: 15px;
+}
+
+
+
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+.titulo{
+    background-color: #7d5b18;
+    width: 20%;
+    height: 10%;
+}
+
+
+
+.productos{
+    color: white;
+    background-color: #7d5b18;
+    text-align: center;
+    font-size: 15px;
+    
+    
+}
+
+.contenedor-productos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.maquina{
+    max-width: 100%;
+    width: 300px;  
+}
+
+.podadora{
+    max-width: 100%;
+    width: 300px; 
+}
+
+.Raqueta{
+    max-width: 100%;
+    width: 300px;  
+}
+
+
+.taladro{
+    max-width: 100%;
+    width: 300px; 
+   
+}
+
+
+
+figcaption{
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+#btn{
+    font-family: 'Paytone One', sans-serif;
+    background-color: #7d5b18;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-radius:10px 10px 10px 10px ;
+    border-color: #7d5b18;
+    margin-top: 20px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+/* ------sección3------- */
+
+.section-3{
+    background-color: #A48E68;
+    padding-top: 1%;
+
+}
+
+h4{
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    margin: 2%;
+
+}
+
+.div-imagen6{
+    display: flex;
+    justify-content: center; 
+
+}
+
+.tazas{
+    max-width: 50%;
+    width: 350px;
+    
+    
+}
+.donar-text{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.boton-registrate{
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+
+#btn2{
+    font-family: 'Paytone One', sans-serif;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    color: #7d5b18;
+    border-radius:10px 10px 10px 10px ;
+    border-color: #7d5b18;
+}
+
+.titulo-3{
+    color: white;
+    font-size: 16px;
+}
+
+/* ------footer------- */
+
+footer{
+    margin: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.newsletter{
+   
+    margin: 5%;
+}
+
+h3{
+    color: #6a501b;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+}
+
+.mail{
+    text-align: center;
+    
+}
+
+
+.iconos-footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer{
+   justify-content: center;
+   text-align: center;
+   font-size: 15px;
+   margin: 5%;
+
+    
+}
+
+/*-----------BATIDORA PROFESIONAL--------------*/
+#arrow{
+    color: grey;
+    margin: 10px;
+}
+
+.articulos-batidora{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.articulo-escritorio{
+    display: none;
+}
+
+.articulo1{
+    margin: 4%;
+}
+
+.size-3{
+    max-width: 100%;
+    width: 300px;
+}
+
+.batidora2{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+
+}
+
+.batidora-img{
+    max-width: 100%;
+    width: 300px;
+    
+}
+
+.boton-disponibilidad{
+    display: flex;
+    justify-content: center; 
+}
+
+/*Pie de imagen*/
+
+.pieImagen{
+    text-align: center;
+}
+
+/*BOTONES DISPONIBILIDAD Y AHORRO*/
+#btn0{
+    background-color: #6a501b;
+    color: white;
+    font-family:'Paytone One', sans-serif;
+}
+
+#ahorro2{
+    background-color: white;
+    border-color:#A8D8E5;
+    
+}
+
+.btn3{
+   margin: 5px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: #6a501b;
+   border-radius: 10px;
+   padding: 1%;
+   width: 40%;
+ 
+}
+
+
+.texto-descripcion-batidora{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.articulos-similares{
+    background-color: #A8D8E5;
+    border-radius: 10px;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+}
+
+.otras-categorias{
+    background-color: #A48E68;
+    border-radius: 10px;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+}
+
+.letra-blanca{
+    color: white;
+
+}
+
+.btn-catalogo{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btn4{
+    color: white;
+    font-family: 'Paytone One', sans-serif;;
+    background-color:#6a501b;
+    margin: 5px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: #6a501b;
+   border-radius: 10px;
+   padding: 1%;
+   width: 40%;
+}
+
+
+
+/*-----------FIN BATIDORA PROFESIONAL--------------*/
+
+/*---------------------REGISTRO---------------------------------*/
+.formulario-registro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+.formulario-resgistro2{
+    margin-bottom: 5%;
+}
+
+.texto-recuperar{
+   text-align: center;
+   margin: 3%;
+   margin-bottom: 5%;
+}
+
+.texto-iniciarSesión{
+    text-align: center;
+   margin: 3%;
+   margin-bottom: 15%;
+}
+
+.titulo-registro{
+    font-size: 30px;
+    margin: 5%;
+    margin-bottom: 8%;
+    color: #A8D8E5;
+}
+
+.texto-registro{
+    font-size: 15px;
+}
+#mail{
+    height: 40px;
+    border-width: 2px;
+   border-style: solid;
+   border-color: #6a501b;
+}
+#pasword{
+    height: 40px; 
+    border-width: 2px;
+   border-style: solid;
+   border-color: #6a501b;
+}
+
+
+/* VERSION TABLET */
+@media (min-width: 700px) {
+
+    .checkbtn{
+        display: none;
+    }
+
+    .responsive {
+        display: flex;
+        
+    }
+
+    
+
+    .chico{
+        display: flex;
+        margin: 10px;
+        
+        width: 30%;
+        height: 35%;
+    }
+    
+    .contenedor-productos { grid-template-columns: repeat(4, 1fr); }
+
+
+    /*-------------Catalogo----------------*/
+
+.opciones{
+    display: none;
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.catalogo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+
+}
+
+.caja-categorias{
+    display:grid;
+    background-color: #A8D8E5;
+    border-radius:10px 10px 10px 10px ;
+    width: 60%;
+    margin-left: 5%;
+    
+    
+}
+
+
+
+.titulo-categorias{
+    font-size: 15px;
+    color: #6a501b;
+    height: 10px;
+}
+
+.titulo-catalogo{
+    font-size: 30px;
+}
+
+.size-category{
+    font-size: 14px;
+    display: inline;
+}
+
+.checkSize{
+    width:15px;
+    height:15px;
+    display: inline;
+}
+
+
+
+
+.letra-azul{
+    color: #A8D8E5;
+    font-size: 14px;
+
+}
+
+.tostadora{
+    
+    grid-column: 2 / 3;
+    grid-row: 1;
+    max-width: 100%;
+    width: 200px;
+
+}
+
+
+.batidora{
+    
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+    max-width: 100%;
+    width: 200px;
+
+}
+
+
+
+.asador{
+    
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    max-width: 100%;
+    width: 200px;
+
+}
+
+.cafetera{
+    
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    max-width: 100%;
+    width: 200px;
+}
+   
+/*------------*/
+
+/*-----------BATIDORA PROFESIONAL--------------*/
+
+.titulo-batidora{
+    font-size: 30px;
+}
+#btn3{
+    width: 20%;
+}
+#btn4{
+    width: 20%;
+
+}
+  
+
+  /*VENTAJAS*/
+  .titulo-ventajas{
+    font-size: 18px;
+    margin: 2%;
+  }
+
+  .texto-descripcion-batidora{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 19px;
+  }
+
+  .titulo-4{
+    font-size: 30px;
+  }
+
+  .letra-blanca{
+    font-size: 30px;
+  }
+
+  .pie-img{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  
+    
+
+
+} /*fin versión tablet*/
+
+
+/* VERSION ESCRITORIO */
+
+@media (min-width: 450px){
+
+   
+
+    .menu {
+        color: white;
+        font-size: 12px;
+    }
+
+    
+
+    h1{
+        font-size: 14px;
+    }
+    .search-text{
+        width: 30%;
+        height: 18px;
+    }
+
+    .descripcion-1{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    /*---seccion1--*/
+    .chica{
+        width: 30%;
+        height: 35%;
+        margin: 10px;
+        
+    }
+
+    
+    h2{
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        
+    }
+
+    
+
+.title-seeker{
+    padding: 18px;
+    text-align: center;
+    
+    
+}
+
+
+
+#searchbtn{
+    display: none;
+}
+
+} /* ---final versión escritorio---*/
+/*-------buscador---------*/
+
+
+
+/*-------seccion2---------*/
+
+
+
+/*-------seccion3---------*/
+
+
+
